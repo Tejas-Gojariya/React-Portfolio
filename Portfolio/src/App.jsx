@@ -1,12 +1,12 @@
-import { useState } from "react";
-import "./App.css";
+import React from "react";
+import Contact from "./routes/Contact";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>Personal Portfolio</h1>
+      <Contact />
     </>
   );
-}
+};
 
 export default App;
