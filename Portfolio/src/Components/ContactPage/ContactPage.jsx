@@ -1,5 +1,9 @@
 import { motion as m } from "framer-motion";
 import React from "react";
+import { UilLinkedin } from '@iconscout/react-unicons'
+import { UilGithub } from '@iconscout/react-unicons'
+import { UilTwitter } from '@iconscout/react-unicons'
+import { UilMediumM } from '@iconscout/react-unicons'
 
 const ContactPage = () => {
   return (
@@ -47,11 +51,15 @@ const ContactPage = () => {
                 <div className="flex gap-2">
                   <span>On the Internet:</span>
                   <div
-                    to=""
+                    to="https://www.linkedin.com/in/tejas-gojariya/"
                     target="_blank"
                     className="underline underline-offset-2 underline-[#ece7e194] hover:opacity-50"
                   >
-                    LinkedIn
+                    <i className="uil uil-linkedin"></i>   LinkedIn
+                    <UilLinkedin size="140" color="#61DAFB" />
+                    <UilGithub size="140" color="#61DAFB"/>
+                    <UilTwitter size="140" color="#61DAFB"/>
+                    <UilMediumM size="140" color="#61DAFB"/>
                   </div>
                 </div>
               </div>
