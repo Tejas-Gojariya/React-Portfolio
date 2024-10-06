@@ -4,7 +4,7 @@ import ContactPage from "../Components/ContactPage/ContactPage";
 
 const contact = () => {
   return (
-    <div>
+    <div className="z-30 relative">
       <ContactAnimation />
       <ContactPage />
     </div>
