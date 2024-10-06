@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import HomeAnimation from "../Components/HomePage/HomeAnimation";
+import HomePage from "../Components/HomePage/HomePage";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <div className="z-30 relative">
+        <HomeAnimation />
+        <HomePage />
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
