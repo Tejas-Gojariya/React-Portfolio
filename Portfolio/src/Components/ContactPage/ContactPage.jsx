@@ -1,9 +1,4 @@
 import { motion as m } from "framer-motion";
-import React from "react";
-import { UilLinkedin } from '@iconscout/react-unicons'
-import { UilGithub } from '@iconscout/react-unicons'
-import { UilTwitter } from '@iconscout/react-unicons'
-import { UilMediumM } from '@iconscout/react-unicons'
 
 const ContactPage = () => {
   return (
@@ -41,26 +36,23 @@ const ContactPage = () => {
               <div className="text-[12px] leading-5 sm500:text-[14px] sm500:leading-7 flex flex-col gap-2">
                 <div className="flex gap-2">
                   <span>Email:</span>
-                  <div
-                    to="mailto:tejasgojariya036@gmail.com"
+                  <a
+                    href="mailto:tejasgojariya036@gmail.com"
                     className="underline underline-offset-4 underline-[#ece7e194] hover:opacity-50"
                   >
                     tejasgojariya036@gmail.com
-                  </div>
+                  </a>
                 </div>
                 <div className="flex gap-2">
                   <span>On the Internet:</span>
-                  <div
-                    to="https://www.linkedin.com/in/tejas-gojariya/"
+                  <a
+                    href="https://www.linkedin.com/in/tejas-gojariya/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="underline underline-offset-2 underline-[#ece7e194] hover:opacity-50"
                   >
-                    <i className="uil uil-linkedin"></i>   LinkedIn
-                    <UilLinkedin size="140" color="#61DAFB" />
-                    <UilGithub size="140" color="#61DAFB"/>
-                    <UilTwitter size="140" color="#61DAFB"/>
-                    <UilMediumM size="140" color="#61DAFB"/>
-                  </div>
+                    LinkedIn
+                  </a>
                 </div>
               </div>
             </m.div>
