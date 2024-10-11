@@ -76,6 +76,17 @@ const HomePage = () => {
               contact
             </Link>
           </div>
+          <div className="uppercase text-[16vw] sm500:text-[18vw] md:text-[13vw] xl1100:text-[11vw] tracking-tighter -ml-[3%]">
+            <Link
+              to="/about"
+              title="about"
+              onMouseOver={mouseOverEvent}
+              onMouseOut={mouseOutEvent}
+              className="Avegas-Royale-Regular hover:opacity-50 duration-300 ease-in-out"
+            >
+              about
+            </Link>
+          </div>
         </div>
       </m.div>
     </div>
