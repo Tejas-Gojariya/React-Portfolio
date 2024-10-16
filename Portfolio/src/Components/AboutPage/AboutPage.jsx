@@ -61,6 +61,70 @@ const AboutPage = () => {
               <div className="w-[85%] Avegas-Royale-Regular uppercase text-xl sm500:text-2xl sm500 mt-4 ml-[4%]">
                 Skills
               </div>
+
+              <div className="w-[85%] text-xs leading-5 sm500:text-sm sm500:leading-7">
+                <div className="flex flex-col">
+                  <div>
+                    <span className="font-medium">Front-End Development:</span>
+                    React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS,
+                  </div>
+                  <div>
+                    <span className="font-medium">Design & Tools:</span> Figma,
+                    UX/UI Design, Graphic Design
+                  </div>
+                  <div>
+                    <span className="font-medium">Back-End & Services:</span>
+                    Node.js, Express.js, Git, Postman,
+                  </div>
+                  {/* <div>
+                    <span className="font-medium">
+                      Optimization & Methodologies:
+                    </span>{" "}
+                    SEO Optimization, Agile Methodologies, CMS Design &
+                    Architecture
+                  </div> */}
+                </div>
+              </div>
+
+              <a
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="w-auto py-2 px-10 bg-[#1a1818] text-[#ece7e1] Avegas-Royale-Regular text-[3vw] md:text-[1.5vw] text-center rounded-full hover:opacity-50 duration-300 ease-in-out">
+                  My CV
+                </div>
+              </a>
+
+              <div className="w-[85%] Avegas-Royale-Regular uppercase text-xl sm500:text-2xl sm500 ml-[4%]">
+                Education
+              </div>
+              <div className="w-[85%] flex flex-col gap-4 text-xs leading-5 sm500:text-sm sm500:leading-7">
+                <div className="flex flex-col">
+                  <div className="font-medium leading-5 text-sm sm500:text-base">
+                    Dr. Babasaheb Ambedkar Open University
+                  </div>
+                  <div className="opacity-75">
+                    Master Of Computer Application
+                  </div>
+                  <div className="text-xs">Jul 2024 - Mar 2026</div>
+                </div>
+                <div className="flex flex-col">
+                  <div className="font-medium leading-5 text-sm sm500:text-base">
+                    Parul University
+                  </div>
+                  <div className="opacity-75">
+                    Bachelor Of Computer Application
+                  </div>
+                  <div className="text-xs">Aug 2021 - Feb 2024</div>
+                </div>
+              </div>
+
+              <a
+                to="mailto:tejasgojariya036@gmail.com"
+                className="w-auto py-2 px-10 bg-[#1a1818] text-[#ece7e1] Avegas-Royale-Regular text-[3vw] md:text-[1.5vw] text-center rounded-full hover:opacity-50 duration-300 ease-in-out"
+              >
+                Contact Me
+              </a>
             </div>
           </div>
         </div>
