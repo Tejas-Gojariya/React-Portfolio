@@ -67,6 +67,17 @@ const HomePage = () => {
         <div className="w-full md:w-3/4 xl1100:w-full flex flex-col justify-center items-start pl-2 sm500:pl-4 md:pl-0 xl:pl-20">
           <div className="uppercase text-[16vw] sm500:text-[18vw] md:text-[13vw] xl1100:text-[11vw] tracking-tighter -ml-[3%]">
             <Link
+              to="/work"
+              title="work"
+              onMouseOver={mouseOverEvent}
+              onMouseOut={mouseOutEvent}
+              className="Avegas-Royale-Regular hover:opacity-50 duration-300 ease-in-out"
+            >
+              work
+            </Link>
+          </div>
+          <div className="uppercase text-[16vw] sm500:text-[18vw] md:text-[13vw] xl1100:text-[11vw] tracking-tighter -ml-[3%]">
+            <Link
               to="/contact"
               title="Contact"
               onMouseOver={mouseOverEvent}

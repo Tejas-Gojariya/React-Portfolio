@@ -5,6 +5,7 @@ import CursorContextProvider from "./context/CursorContext";
 import Contact from "./routes/Contact";
 import Home from "./routes/Home";
 import About from "./routes/About";
+import Work from "./routes/Work";
 
 function App() {
   const location = useLocation();
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
+            <Route path="/work" element={<Work />} />
           </Routes>
         </AnimatePresence>
       </CursorContextProvider>
