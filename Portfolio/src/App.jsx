@@ -6,6 +6,7 @@ import Contact from "./routes/Contact";
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Work from "./routes/Work";
+import Navigation from "./Components/Navigation";
 
 function App() {
   const location = useLocation();
@@ -14,6 +15,7 @@ function App() {
     <>
       <CursorContextProvider>
         <Cursor />
+        <Navigation />
 
         <AnimatePresence initial={true}>
           <Routes location={location} key={location.pathname}>
