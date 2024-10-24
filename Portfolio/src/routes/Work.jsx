@@ -1,10 +1,9 @@
-import React from "react";
 import WorkAnimation from "../Components/WorkPage/WorkAnimation";
 import WorkPage from "../Components/WorkPage/WorkPage";
 
 const Work = () => {
   return (
-    <div>
+    <div className="z-30 relative">
       <WorkAnimation />
       <WorkPage />
     </div>

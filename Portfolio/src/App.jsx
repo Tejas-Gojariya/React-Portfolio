@@ -7,6 +7,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Work from "./routes/Work";
 import Navigation from "./Components/Navigation";
+import Huepalette from "./routes/huepalette";
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
+            <Route path="/huepalette" element={<Huepalette />} />
+
           </Routes>
         </AnimatePresence>
       </CursorContextProvider>
