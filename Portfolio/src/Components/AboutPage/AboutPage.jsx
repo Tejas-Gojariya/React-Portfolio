@@ -1,5 +1,6 @@
 import React from "react";
 import { motion as m } from "framer-motion";
+import myCV from "../../CV/Tejas_Gojariya_CV.pdf";
 
 const AboutPage = () => {
   return (
@@ -24,9 +25,8 @@ const AboutPage = () => {
             <div className="w-full md:w-3/5 flex flex-col justify-center items-start gap-8">
               {/* Introduction */}
               <div className="Avegas-Royale-Regular ml-[5%] text-[5vw] md:text-[2.5vw] leading-6 sm350:leading-8 sm500:leading-10 xl:leading-[3rem]">
-                I'm Tejas. A web developer, designer and problem solver.
+                I'm Tejas Gojariya. A web developer, designer and problem solver.
               </div>
-
               {/* Personal Background */}
               <div className="w-[85%] text-xs leading-5 sm500:text-sm sm500:leading-7 mt-4  ">
                 I see the web as my playground, where code and creativity meet
@@ -86,10 +86,7 @@ const AboutPage = () => {
                 </div>
               </div>
 
-              <a
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a target="_blank" rel="noreferrer" href={myCV}>
                 <div className="w-auto py-2 px-10 bg-[#1a1818] text-[#ece7e1] Avegas-Royale-Regular text-[3vw] md:text-[1.5vw] text-center rounded-full hover:opacity-50 duration-300 ease-in-out">
                   My CV
                 </div>
